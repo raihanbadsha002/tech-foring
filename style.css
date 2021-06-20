@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    font-size: .9rem;
+}
+/* Nav__Section Start */
+.nav-item{
+    margin-right: 2.5rem;
+}
+.nav-link{
+    color: #000 !important;
+    position: relative;
+}
+.nav-link:after{
+    content: "";
+    height: 4%;
+    left: 7px;
+    top: 35px;
+    width: 80px;
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+    transform: scaleX(2);
+}
+.nav-link:hover:after{
+    transform: scaleX(1);
+    opacity: 1;
+}
+.nav-link:before{
+    content: "";
+    height: 4%;
+    left: 7px;
+    top: 40px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+    transform: scaleX(2);
+}
+.nav-link:hover:before{
+    transform: scaleX(1);
+    opacity: 1;
+}
+.custom__btn{
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
+.navbar-brand img{
+    width: 40%;
+    margin-left: 4rem;
+}
+/* Nav__Section end */
+
+/* Header Section Start */
+.banner_Sec{
+    background-image: url(./images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+}
+.brand_header{
+    position: relative
+}
+.brand_header h4::before{
+    content: "";
+    height: 4%;
+    right: 47%;
+    top: 32px;
+    width: 80px;
+    background-color: #520861;
+    position: absolute;
+}
+.want_header{
+    position: relative
+}
+.want_header p{
+    font-size: .9rem;
+}
+.want_header h4::before{
+    content: "";
+    height: 3px;
+    right: 46%;
+    top: 32px;
+    width: 85px;
+    background-color: #520861;
+    position: absolute;
+
+}
+/* Header Section End */
+
+/* Services Section Start */
+.icon_style{
+    margin-right: 20px;
+}
+.icon_style img {
+    width: 90px;
+}
+.icon_style2 h2 {
+    color: #400467;
+}
+.icon_style2 img {
+    width: 35px;
+    margin-right: 10px;
+}
+.services_header{
+    position: relative;
+}
+.services_header p{
+    font-size: .9rem;
+}
+.services_header h6::before{
+    content: "";
+    height: 3px;
+    top: -11px;
+    width: 50px;
+    background-color: #49e377;
+    position: absolute;
+}
+/* Services Section End */
+.success_Sec{
+    margin-bottom: -10px;
+}
+/* Feature Section Start */
+.card img{
+  width:30px;
+}
+.success_number h2{
+    font-weight: bolder;
+}
+.lg_hide{
+    display: none !important;
+}
+/* Feature Section End */
+
+/* Customer section Start*/
+.customer__card{
+    position: relative;
+}
+.customer_title{
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    top: 18rem;
+}
+.customer_border h6{
+    position: relative; 
+}
+.customer_border h6::before{
+    content: "";
+    height: 3px;
+    top: -9px;
+    width: 50px;
+    left: 27px;
+    background-color: #49e377;
+    position: absolute;
+}
+.customer_img img{
+    position: absolute;
+    width: 110px;
+    left: 35%;
+    top: 9rem;
+
+}
+.right_arrow{
+    margin-top: 115px !important;
+}
+/* Customer section End*/
+
+/* Pricing Section Start*/
+.custom_border{
+    border: 1px solid #20013d;
+    border-top: 5px solid #000272;
+    margin-left: 10px;
+}
+.pricing__div img{
+    width: 20px;
+    margin: 15px 0px;
+}
+.price_titel{
+    margin-bottom: 30px;
+}
+.on_demand{
+    font-size: .9rem;
+    margin-top: 2px;
+}
+/* Pricing Section End*/
+
+/* Get Started start */
+.get_started{
+    background: #182f59;
+}
+.get_started img{
+   width: 50%
+}
+.get_header h2{
+    position: relative;
+}
+.get_header h2::before{
+    content: "";
+    height: 3px;
+    right: 17rem;
+    top: -11px;
+    width: 90px;
+    background-color: #ffffff;
+    position: absolute; 
+}
+.resource_title h4{
+    position: relative;
+    margin-bottom: 1.7rem;
+}
+.resource_title h4::before{
+    content: "";
+    height: 3px;
+    right: 7rem;
+    top: 33px;
+    width: 140px;
+    background-color: #520861;
+    position: absolute;
+}
+.get_btn{
+    background: #ffffff;
+}
+.resource_img img{
+    width: 17.9rem;
+}
+.learn_btn{
+    background: #182f59;
+    color: #fff;
+}
+.learn_btn:hover{
+    background: #1f3c72;
+    color: rgb(238, 238, 238);
+}
+/* Get Started end */
+
+/* Footer Section */
+.top_footer{
+    background: #182f59;  
+}
+.top_footer ul{
+    margin-left: -2rem;
+}
+.top_footer li{
+    list-style: none;
+    margin: 15px 0px;
+}
+.top_footer a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer_title h5 {
+    position: relative;
+    margin-bottom: 2rem;
+    text-transform: uppercase;  
+}
+.footer_title h5:before{
+    content: "";
+    height: .1rem;
+    right: 5.4rem;
+    top: 33px;
+    width: 180px;
+    background-color: #ffffff;
+    position: absolute;
+}
+.social_icon{
+    margin-top: 8rem;
+}
+.social_icon img{
+    width: 45px;
+}
+.social_icon li{
+    margin-left: 7px;
+}
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .nav-item, .navbar-brand img, .navbar-collapse button, .report h5, .report h6{
+        margin-left: 1rem;
+    }
+    .banner_Sec {
+        height: 70vh;
+        margin-top: 10px;
+    }
+    .banner_Sec h3{
+        text-align: left;
+        margin-left: 2rem;
+        font-size: 1.4rem;
+    }
+    .banner_Sec p{
+        text-align: left;
+        margin-left: 2rem;
+        font-size: 0.7rem;
+    }
+    .banner_Sec .mb_input{
+        width: 80% !important;
+    }
+    ::-webkit-input-placeholder {
+        color: peachpuff;
+        font-size: 13px;
+      }
+      ::-moz-placeholder {
+        color: peachpuff;
+        font-size: 13px;
+      }
+      :-ms-input-placeholder {
+        color: peachpuff;
+        font-size: 13px;
+      }
+      ::placeholder {
+        color: peachpuff;
+        font-size: 13px;
+      }
+
+      button{
+        font-size: .7rem !important;
+        margin-bottom: 1rem !important;
+      }
+    .want_header h4,  .brand_header h4{
+        font-size: 1rem;
+        padding: 0px 24px;
+    }
+    .brand_header h4::before, .want_header h4::before{
+        right: 39%;
+        
+    }
+    .brand_header img{
+        width: 7rem !important;
+    }
+    .want_header p {
+        font-size: .8rem;
+        text-align: justify !important;
+        width: 281px;
+        margin: auto;
+    }
+    .report img{
+    width: 86%;
+    margin: auto;
+    }
+    .icon_style img {
+        width: 50px;
+        margin-left: 1rem;
+        margin-right: 2.5rem;
+    }
+    .services_header p {
+        font-size: .8rem;
+    }
+    .success_main{
+        flex-flow: column;
+       text-align: center;
+    }
+    .feature_img img{
+        margin-left: 20px;
+    }
+    .features_div{
+        width: 90%;
+        margin: auto;
+    }
+    .customer__card {
+        margin-bottom: 3.5rem;
+    }
+    .mb_hide{
+        display: none;
+    }
+    .pricing__div img {
+        margin: 7px 0px;
+    }
+    .lg_hide{
+        display: block !important;
+        margin-top: 35px !important;
+    }
+    .get_started img {
+        width: 60%;
+        margin-left: 70px;
+    }
+    .get_header h2 {
+        font-size: 1.4rem;
+    }
+    .get_header h2::before {
+        right: 7rem;
+        width: 120px;
+    }
+    .footer_title h5:before{
+        right: 9.8rem;
+    }
+    .top_footer a {
+        font-size: .8rem;
+    }
+    .social_icon {
+        margin-top: 0rem;
+    }
+
+}
